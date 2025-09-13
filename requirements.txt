@@ -6,5 +6,10 @@ category-encoders==2.8.1
 scikit-learn==1.7.0
 streamlit==1.46.1
 xgboost==3.0.2
+nltk
+mlflow
+torchtext
+torch
+transformers==4.56.1
 
 

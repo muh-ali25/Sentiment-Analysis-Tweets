@@ -5,6 +5,11 @@ __pycache__/
 
 data/
 outputs/
+artifacts/
+
+mlruns/
+artifacts/
+
 
 
 # C extensions
