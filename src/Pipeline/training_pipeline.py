@@ -17,8 +17,8 @@ def main():
     _ = mlflow.set_experiment(experiment_name)
 
 
-    NUM_EPOCHS = 100
-    BATCH_SIZE = 64
+    NUM_EPOCHS = 10
+    BATCH_SIZE = 32
     LEARNING_RATE = 0.001
 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
